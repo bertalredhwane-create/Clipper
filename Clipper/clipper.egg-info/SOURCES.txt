@@ -1,0 +1,15 @@
+pyproject.toml
+clipper.egg-info/PKG-INFO
+clipper.egg-info/SOURCES.txt
+clipper.egg-info/dependency_links.txt
+clipper.egg-info/entry_points.txt
+clipper.egg-info/requires.txt
+clipper.egg-info/top_level.txt
+src/__init__.py
+src/src/config.py
+src/src/src/database.py
+src/src/src/src/ingestion.py
+src/src/src/src/src/transcription.py
+src/src/src/src/src/src/selection.py
+src/src/src/src/src/src/src/cli.py
+src/src/src/src/src/src/src/tests/test_selection.py

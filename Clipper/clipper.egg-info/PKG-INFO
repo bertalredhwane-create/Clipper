@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: clipper
+Version: 0.1.0
+Summary: Découpe automatique et gratuite de vidéos YouTube en clips
+Requires-Python: >=3.11
+Requires-Dist: typer[all]>=0.12.0
+Requires-Dist: rich>=13.7.0
+Requires-Dist: yt-dlp>=2024.10.7
+Requires-Dist: faster-whisper>=1.0.0
+Requires-Dist: google-genai>=0.1.1
+Requires-Dist: pydantic>=2.7.0
+Requires-Dist: pydantic-settings>=2.2.0
+Requires-Dist: pyyaml>=6.0.1
+Requires-Dist: jinja2>=3.1.4

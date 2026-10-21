@@ -1,0 +1,2 @@
+[console_scripts]
+clipper = src.cli:app

@@ -1,0 +1,26 @@
+app:
+  storage_dir: "storage"
+  database_path: "storage/clipper.db"
+  log_level: "INFO"
+
+pipeline:
+  clip_min_duration_seconds: 120.0
+  clip_max_duration_seconds: 300.0
+  max_overlap_ratio: 0.20
+  boundary_padding_seconds: 0.3
+  target_lufs: -14.0
+  audio_fade_seconds: 0.3
+
+ai:
+  whisper_model: "medium"
+  whisper_device: "auto"
+  whisper_compute_type: "auto"
+  gemini_model: "gemini-1.5-flash"
+  max_token_threshold: 90000
+  chunk_overlap_tokens: 3000
+
+publishing:
+  daily_quota_limit: 10000
+  upload_cost_units: 1600
+  max_uploads_per_day: 6
+  default_privacy: "private"
